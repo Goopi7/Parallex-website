@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root{
+    --color-h2 : white;
+    --line-spaceing-p:30px;
+    --line-spacing-h2:60px;
+    --fontheight-h2:100px;
+    --fontheight-h3:30px;
+    --letter-spaceing-h2:10px;
+    --letter-spaceing-h3:7px;
+    --padding-small:20px;
+    --padding-large:80px;
+    --font-family : 'Oswald',sans-serif;
+    --color-h2:rgb(241, 238, 238);
+
+}
+
+body{
+    width: 100%;
+    padding: 0;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h3{
+    font-size: var(--fontheight-h3);
+    text-transform: uppercase;
+}
+p{
+    line-height: var(--line-spaceing-p);
+}
+.first-character{
+    margin-top: -30px;
+    line-height: var(--line-spacing-h2);
+
+}
+
+.block{
+    padding: 30px 80px ;
+}
+
+.Parallex-one div h2{
+    text-transform: uppercase;
+    color: var(--color-h2);
+    line-height: var(--line-spacing-h2);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    z-index: 10;
+    font-size: var(--fontheight-h2);
+}
+
+.Parallex-two h2{
+    
+    text-transform: uppercase;
+    color: var(--color-h2);
+    line-height: var(--line-spacing-h2);
+    text-align: center;
+    padding: 200px;
+    font-size: var(--fontheight-h2);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.Parallex-three h2{
+    text-transform: uppercase;
+    color: var(--color-h2);
+    line-height: var(--line-spacing-h2);
+    text-align: center;
+    padding: 200px;
+    z-index: 10;
+    font-size: var(--fontheight-h2);
+}
+
+.Parallex-four h2{
+    
+    text-transform: uppercase;
+    color: var(--color-h2);
+    line-height: var(--line-spacing-h2);
+    text-align: center;
+    padding: 200px;
+    font-size: var(--fontheight-h2);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.Parallex-five h2{
+    
+    text-transform: uppercase;
+    color: var(--color-h2);
+    line-height: var(--line-spacing-h2);
+    text-align: center;
+    padding: 200px;
+    font-size: var(--fontheight-h2);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.first-character{
+    font-size: medium;
+    font-size: 80px;
+    float: left;
+    line-height: 60px;
+    padding-right: 8px;
+    padding-top:4px ;
+
+
+}
+
+.Parallex-one{
+    background-image: url("https://wallpapercave.com/wp/wp8887585.jpg");
+    }
+.Parallex-two{
+    background-image: url("https://wallpapercave.com/wp/wp7432594.jpg");
+}
+.Parallex-three{
+    background-image: url("https://wallpapercave.com/wp/wp10989324.jpg");}
+.Parallex-four{
+        background-image: url("https://wallpapercave.com/wp/wp9039385.jpg");}
+
+.Parallex-five{
+    background-image: url("https://wallpapers.com/images/hd/rajasthan-royals-ipl-trophy-v7482sb8xolpv80q.jpg");}
+        
+ 
+.Parallex-two,
+.Parallex-three,
+.Parallex-four,
+.Parallex-five,
+.Parallex-one{
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+    position: relative;
+  
+}
+
